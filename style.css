@@ -1,0 +1,71 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: rgb(239, 45, 213);
+    text-align: center;
+}
+.container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.game{
+height:60vmin;
+width: 60vmin;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+gap: 1.5vmin;
+}
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 0.9rem;
+    box-shadow: 0 0 1rem rgba(43, 167, 228, 0.791);
+    font-size: 7vmin;
+    color: rgb(133, 15, 133);
+    background-color: rgb(24, 212, 237);
+    border-color: rgb(40, 40, 238);
+}
+#reset-btn{
+    padding: 1rem;
+    border-color: greenyellow;
+    font-size: 1.25rem;
+    background-color: rgb(178, 52, 220);
+    border-radius: 1.7vmin;
+    color: rgb(120, 237, 18);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#newbtn{
+    padding: 1rem;
+    font-size: 1.25rem;
+    border-color: greenyellow;
+    background-color: rgb(178, 52, 220);
+    border-radius: 1.7vmin;
+    color: rgb(120, 237, 18);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#msg{
+    color:white;
+    font-size: 6vmin;
+}
+
+.msg-container{
+    height: 99vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.hide{
+    display: none;
+}
+
